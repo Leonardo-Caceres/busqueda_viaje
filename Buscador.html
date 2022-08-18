@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Despegarte</title>
+</head>
+<body>
+    <header><h1>Listo para viajar?</h1></header>
+    <hr>
+    <main>
+        <form> 
+            <div>   
+                <h3> Elige tu vuelo: </h3>
+                <div>
+                    <label for="">Selecciona una opcion:</label>
+                    <input cheked name="Vuelo" type="radio" value="Ida y vuelta"><b>Ida y vuelta</b>
+                    <input name="Vuelo" type="radio" value="solo ida"><b>Solo ida</b>
+                <div>
+                    <label for="Origen">Punto de partida: </label>
+                    <input type="text" name="Origen" id="Origen" placeholder="Ciudad de origen">
+                </div>
+                    <label for="Destino">Destinoo: </label>
+                    <input type="text" name="Destino" id="Destino" placeholder="Ciudad de destino">
+                </div>
+                <h3> Fechas: </h3>
+                <div>
+                    <div>
+                        <label for="Ida">Ida: </label>
+                        <input type="date" name="Ida" id="Ida">
+                        <label for="Vuelta"> Vuelta: </label>
+                        <input type="date" name="Vuelta" id="Vuelta">
+                </div>
+                <div>
+                    <h3>Cuantos pasajeros van a ser: </h3>
+                    <label for="Pasajeros">Cuantos adultos:</label>
+                    <input type="number" placeholder="Adultos">
+                    <label for="Pasajeros">Cuantos niños:</label>
+                    <input type="number" placeholder="Niños">
+                </div>
+                <div>
+                    <h3>Clase: </h3>
+                    <label for="clases">En que clase quieres viajar: </label>
+                    <input list="Clases"placeholder="clase">
+                    <datalist id="Clases">
+                    <option value="Economica">Economica</option>
+                    <option value="Premiun Economica">Premiun Economica</option>
+                    <option value="Ejecutiva/Bussines">Ejecutiva/Bussines</option>
+                    <option value="Primera Clase">Primera Clase</option>
+                    </datalist> 
+                </div>
+                <hr>
+                <div>
+                    <button type="submit">Buscar</button>
+                    <button type="reset">Limpiar formulario</button>
+                </div>            
+            </div>
+        </form>
+    </main>    
+</body>
+</html>
+</body>
+</html>
